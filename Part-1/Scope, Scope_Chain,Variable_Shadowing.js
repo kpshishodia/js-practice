@@ -39,6 +39,8 @@ function outerFunction() {
 
     innerFunction();
 
+    console.log("score:" , score)
+
     // console.log(level); // ❌ ERROR: inner function variable
 }
 
